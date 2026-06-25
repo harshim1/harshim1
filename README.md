@@ -2,57 +2,78 @@
 
 # Hey, I'm Harshim
 
-**Quant + ML builder** · CS & Statistics @ Penn State · Bridgewater Forecasting the Future Winner '25
+**Builder.** CS & Statistics @ Penn State. I like integrating ideas across quantitative finance, machine learning, and data science, and turning them into things that actually work.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harshim-saluja01/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:harshimsaluja1@gmail.com)
 
 </div>
 
 ---
 
-### What I'm building right now
+## Quantitative Finance
 
-- **Algorithmic Trading Intern @ Worldwide Offline Algos** — systematic strategies across futures, equities, commodities, and crypto, stress-tested with block bootstrap Monte Carlo simulation
-- **ML Researcher @ Penn State** — designing a prompt-injection-resilient LLM agent using a dual-model (Task/Guard) authorization architecture
-- **Director of Training @ Nittany Data Labs** — running weekly interactive sessions on feature engineering, transformers, and applied ML
+Where most of my time goes. I'm interested in market microstructure, volatility modeling, and validating trading strategies properly rather than trusting a single backtest.
 
-### What I care about
+**Experience**
+- **Algorithmic Trading Intern, Worldwide Offline Algos** : built systematic strategies across futures, equities, commodities, and crypto, validated with block bootstrap Monte Carlo simulation (10,000 runs) rather than a standard backtest
+- **Global Markets Analyst, CIBC Capital Markets** : researched North American market structure, automated margin finance risk model reporting in Python and VBA
+- **Quantitative Analyst, TD** : backtested economic data against equity returns for lead/lag relationships, improved portfolio data pipelines in Python and SQL
+- **Bridgewater Forecasting the Future Challenge, Winner** : one of 5 global winners (1,000+ submissions, 120+ countries) for a forecast on shifts in global trade and economic power
 
-Turning rigorous statistical and security-conscious ideas into things people actually use — financial time-series modeling, LLM agent safety, and fast, scalable ML systems.
-
----
-
-### Selected Projects
-
-| Project | What it does |
-|---|---|
-| [**adaptive-PDE-solver**](https://github.com/harshim1/adaptive-PDE-solver) | Adaptive mesh-refinement PDE solver for option pricing — auto-refines near strikes/short maturity using combined error estimators, full Greeks, Crank-Nicolson time stepping |
-| [**VolatilityNormality**](https://github.com/harshim1/VolatilityNormality) | Tested whether Black-Scholes' normality assumption holds in real markets (SPY/QQQ/DIA, 2007–2024) — found decisive fat-tail rejection and 2x mispricing risk vs. Heston |
-| [**-FinSentiment-Alpha**](https://github.com/harshim1/-FinSentiment-Alpha) | FinBERT-based long-short equity strategy trading on earnings/news sentiment signals |
-| [**Aperta**](https://github.com/ApurvGude2000/Aperta) (TreeHacks 2026) | Multi-agent networking intelligence platform — 6 Claude-powered agents for entity extraction, PII redaction, and strategic follow-ups |
-| [**Agent-Native-Literature-Review**](https://github.com/harshim1/Agent-Native-Literature-Review) | AI research assistant for literature review — publication trend analysis, gap detection, NSF proposal drafting |
-| [**SeverityAI**](https://github.com/EdwardChhun/SeverityAI) (PennApps XXI) | Built the AI triage model — scores ER patients 1–5 by urgency from symptoms/pain input, powered by Cerebras/Llama 3.1 |
+**Research**
+- [**VolatilityNormality**](https://github.com/harshim1/VolatilityNormality) : tested whether Black-Scholes' normality assumption holds in real markets (SPY/QQQ/DIA, 2007 to 2024). Found decisive fat-tail rejection across all indices and showed Heston pricing yields roughly 2x higher premiums than Black-Scholes for deep OTM puts. Presented at Penn State Eberly College of Science.
+- [**adaptive-PDE-solver**](https://github.com/harshim1/adaptive-PDE-solver) : adaptive mesh refinement PDE solver for option pricing. Refines the grid near strikes and short maturities using combined error estimators, with full Greeks and Crank-Nicolson time stepping.
+- [**FinSentiment-Alpha**](https://github.com/harshim1/-FinSentiment-Alpha) : FinBERT based long-short equity strategy trading on earnings report and news sentiment signals.
+- **Algorithmic Trading Research, Penn State** : analyzed volatility clustering and Gaussianity assumptions in financial time series, built GARCH and regime-switching models across the 2008 crash, COVID-19, and 2023 inflation periods.
 
 ---
 
-### Tech I work with
+## Machine Learning & Software Engineering
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+**Experience**
+- **ML Researcher, Penn State** : designing a prompt-injection-resilient LLM agent architecture using a dual-model authorization layer, a Task Model that proposes tool calls and a Guard Model that independently authorizes them
+- **Research Assistant, Penn State (Cybersecurity)** : fine-tuned LLMs on MITRE and custom datasets for phishing detection, 92% precision and 90% F1-score, evaluated robustness against adversarial samples
+- **Full-stack Developer, Lease-Link-App** : built the iOS version of the app alongside the existing Android/web codebase
+
+**Projects**
+- [**Aperta**](https://github.com/ApurvGude2000/Aperta) (TreeHacks 2026) : multi-agent networking platform built on Claude, six agents handling entity extraction, PII redaction, context analysis, and strategic follow-ups
+- [**SeverityAI**](https://github.com/EdwardChhun/SeverityAI) (PennApps XXI) : built the AI triage model that scores ER patients 1 to 5 by urgency from symptoms and pain input, powered by Cerebras/Llama 3.1
+- [**Agent-Native-Literature-Review**](https://github.com/harshim1/Agent-Native-Literature-Review) : AI research assistant for literature review, publication trend analysis, gap detection, and NSF proposal drafting
 
 ---
 
-### A few wins
+## Data Science
 
-- Bridgewater Forecasting the Future Challenge Winner '25 (5 of 1,000+ global submissions)
-- 3x Hackathon Winner · 2x Kaggle Winner
-- Honors research: prompt-injection-resilient LLM agents (CMPSC 461/496, Penn State)
+- **Data Engineer, Zomato** : built real-time pricing pipelines in Python, SQL, and Airflow, applied A/B testing to evaluate price sensitivity, improved pricing efficiency by 30%
+- **Director of Training, Nittany Data Labs** : run weekly interactive sessions teaching feature engineering, transformer architectures, and applied ML to club members
+
+---
+
+## Leadership
+
+- **President, Statistics Club**
+- **Algo Developer, Quant Club**
+- **Former President, Penn State Tennis Club**
+- **Career Ambassador, Penn State Career Services** : reviewed 100+ resumes and LinkedIn profiles, ran mock interviews and career readiness workshops
+- **Student Admissions Representative, Penn State Harrisburg** : guided 200+ prospective students and families through campus visits
+
+---
+
+## Hackathons
+
+In-person events I've built at: **TreeHacks**, **PennApps**, **HackPrinceton**, **HackBSU**
+
+---
+
+## Currently exploring
+
+Early ideas in neurotech. Always sharpening C++ and Python.
+
+---
+
+## Beyond the code
+
+F1, FIFA, music (especially boy bands), writing poetry, and teaching/mentoring kids whenever I get the chance.
 
 <div align="center">
 
