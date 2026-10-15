@@ -65,7 +65,7 @@ Where most of my time goes. I'm interested in market microstructure, volatility 
 
 ## Hackathons
 
-In-person events I've built at: **TreeHacks**, **PennApps**, **HackPrinceton**, **HackBSU**
+In-person events I've built at: **TreeHacks**, **PennApps**, **HackPrinceton**, **HackPSU**
 
 ---
 
